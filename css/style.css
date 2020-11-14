@@ -90,30 +90,35 @@
 #btnSubmit:active{
     border-style: none;
 }
-.filters{
+.containerFilters{
     padding: 30px 0  30px 0;
 }
-.filters span i{
+.containerFilters span i{
     font-size: 30px;
     color: blue;
     background-color: lightblue;
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     text-align: center;
     border-radius: 50px;
+    position: absolute;
 }
-.filters p{
+.filters{
+    padding: 10px;
+}
+.containerFilters p{
     font-weight: 1000;
     font-size: 26px;
     padding: 0 30px 0 0;
 }
 .btnFilters{
     padding:20px 20px 20px 20px;
-    border-radius: 50px;
+    border-radius: 60px;
     font-weight: 1000;
     font-size: 26px;
     background-color: white;
     border-color: lightgray;
+    text-align: right;
 }
 #total p{
     font-weight: 400;
@@ -124,8 +129,8 @@
 /* Stating Gallery */
 .galery{
     background-color: lightgray;
-    height: 1000px;
-    width: 1300px;
+    height: 100%;
+    width: 1500px;
     border-radius: 50px;
 }
 #location{
@@ -140,21 +145,31 @@
 #pPrice{
     font-size: 20px;
 }
-.row{
-    padding: 100px 0 0 50px;
-}
 .figure{
     text-align: center;
     background-color: white;
+    border-radius: 30px;
+    padding: 60px;
 }
 .row img{
     height: 300px;
     width: 320px;
     border-radius: 50px;
     padding: 10px;
-
 }
 
-
 /* Starting side Galery */
-
+.sideGalery{
+    height: 1000px;
+    width: 800px;
+}
+.column{
+    background-color: lightgray;
+    border-radius: 50px;
+}
+.column img{
+    height: 300px;
+    width: 320px;
+    border-radius: 50px;
+    padding: 10px;
+}
