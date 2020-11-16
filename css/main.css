@@ -13,6 +13,7 @@
     flex-direction: column;
     overflow: hidden;
 }
+
 .mid{
     display: flex;
     flex-direction: row;
@@ -35,6 +36,15 @@
 
 }
 .column{
+    display: flex;
+    flex-direction: column;
+}
+.figureSide{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.figureSide #test{
     display: flex;
     flex-direction: column;
 }

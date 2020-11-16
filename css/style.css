@@ -38,6 +38,10 @@
 .ul_menu .signup a{
     color: blue;
 }
+.ul_menu #accomodation:defined{
+    color:#0065FC;
+    border-top: 2px solid blue; 
+}
 /* End of menu */
 
 /* Start search place */
@@ -60,7 +64,12 @@
     border-radius: 10px 0 0 10px;
     border: none;
     font-size: 50px;
+    position: relative;
+}
+.formGroup span{
+    vertical-align: bottom;
     text-align: center;
+    top: 16px;
 }
 #findPlace{
     white-space: nowrap;
@@ -109,6 +118,7 @@
     padding: 0;
 }
 .filters i{
+    position: relative;
     float: left;
     margin: 0 10px 0 -25px;
     height: 50px;
@@ -116,21 +126,41 @@
     border-radius: 50%;
     background-color: #DEEBFF;
     color: #0065FC;
+    font-size: 26px;
 }
 .containerFilters p{
     font-weight: 1000;
     font-size: 26px;
     padding: 0 30px 0 0;
+    position: relative;
+    top: -15px;
+}
+#total span{
+    display: flex;
+    flex-direction: row;
+}
+#total i{
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #0065FC;
+    top: 20px;
+    position: relative;
 }
 #total p{
     font-weight: 400;
     font-size: 23px;
+    margin-left: 5px;
 }
 /* End of search Place */
 
 /* Stating Gallery */
 .galery{
-    background-color: lightgray;
+    background-color: #E8E8E8;
     height: 100%;
     width: 1500px;
     border-radius: 50px;
@@ -141,11 +171,11 @@
     font-size: 26px;
     margin-left: 20px;
 }
-#pName{
+.figure #pName{
     font-weight: 800;
     font-size: 20px;
 }
-#pPrice{
+.figure #pPrice{
     font-size: 20px;
 }
 .figure{
@@ -157,24 +187,85 @@
     margin-top: 5%;
 }
 .row img{
-    height: 300px;
-    width: 320px;
+    height: 200px;
+    width: 400px;
     border-radius: 50px;
     padding: 0 10px 10px 10px;
 }
+#showmore{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 86px;
+}
+.one #oneStars:nth-child(1), #oneStars:nth-child(2), #oneStars:nth-child(3), #oneStars:nth-child(4){
+    color: blue;
+}
+.two #twoStars:nth-child(1), #twoStars:nth-child(2), #twoStars:nth-child(3), #twoStars:nth-child(4), #twoStars:nth-child(5){
+    color: blue;
+}
+.three #threeStars:nth-child(1), #threeStars:nth-child(2), #threeStars:nth-child(3), #threeStars:nth-child(4){
+    color: blue;
+}
+.four #fourStars:nth-child(1), #fourStars:nth-child(2), #fourStars:nth-child(3){
+    color: blue;
+}
+.five #fiveStars:nth-child(1), #fiveStars:nth-child(2), #fiveStars:nth-child(3), #fiveStars:nth-child(4){
+    color: blue;
+}
+.six #sixStars:nth-child(1), #sixStars:nth-child(2), #sixStars:nth-child(3), #sixStars:nth-child(4), #sixStars:nth-child(5){
+    color: blue;
+}
 
-/* Starting side Galery */
+/* ######################################## Starting side Galery ############################################################*/
+
 .sideGalery{
     height: 100%;
     width: 800px;
-}
-.column{
-    background-color: lightgray;
+    background-color: #E8E8E8;
     border-radius: 50px;
+    padding: 20px 50px 110px 20px;
 }
-.column img{
-    height: 300px;
-    width: 320px;
-    border-radius: 50px;
-    padding: 10px;
+.sideGalery #popular{
+    font-weight: 800;
+    font-size: 23px;
+    margin-left: 5px;
+}
+.sideGalery .fa-chart-line{
+    float: right;
+    font-size: 26px;
+
+
+}
+.figureSide{
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.figureSide img{
+    height: 280px;
+    width: 280px;
+    border-radius: 50px 0 0 50px;
+    padding: 0 20px 0 10px;
+}
+.figureSide #textCap{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 26px;
+    height: 100%;
+}
+.stars{
+    position: relative;
+    top: 80px;
+}
+.sideOne #sideOne:nth-child(1), #sideOne:nth-child(2), #sideOne:nth-child(3), #sideOne:nth-child(4), #sideOne:nth-child(5){
+    color: blue;
+}
+.sideTwo #sideTwo:nth-child(1), #sideTwo:nth-child(2), #sideTwo:nth-child(3), #sideTwo:nth-child(4){
+    color: blue;
+}
+.sideThree #sideThree:nth-child(1), #sideThree:nth-child(2), #sideThree:nth-child(3), #sideThree:nth-child(4){
+    color: blue;
 }

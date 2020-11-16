@@ -16,7 +16,7 @@
                 <img src="images/Reservia@3x.png" alt="Reservia Logo" />
                 <nav>
                     <ul class="ul_menu">
-                        <li><a href="#">Accommodation</a></li>
+                        <li><a id="accomodation" href="#">Accommodation</a></li>
                         <li><a href="#">Activities</a></li>
                         <li class="signup"><a href="#">Sign Up</a></li>
                     </ul>
@@ -38,22 +38,24 @@
                     Low Cost
                 </div>
                 <div class="filters">
-                    <i class="fas fa-money-bill-wave"></i>
+                    <i class="fas fa-child"></i>
                     Family-friendly
                 </div>
                 <div class="filters">
-                    <i class="fas fa-money-bill-wave"></i>
+                    <i class="fas fa-heart"></i>
                     Romantic
                 </div>
                 <div class="filters">
-                    <i class="fas fa-money-bill-wave"></i>
+                    <i class="fas fa-dog"></i>
                     Pets allowed
                 </div>
             </div>
             <div id="total">
-                <p>More than 500 accommodations are avaliable in this city</p>
+                <span><i class="fas fa-info"></i>
+                <p>More than 500 accommodations are avaliable in this city</p></span>
             </div>
         </div>
+                    <!-- ###############################################    MID   #########################################################-->
         <div class="mid"> 
             <div class="galery">
                 <p id="location">Accommodation in Maarseille, France</p>
@@ -61,40 +63,125 @@
                     <div class="figure">
                         <p><img src="images/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></p>
                         <P id="pName"> Auberge la Cannebiére</P>
-                        <p id="pPrice">Night starting at 25</p>
+                        <p id="pPrice">Night starting at <strong>25&#8364;</strong></p>
+                        <p class="one">
+                            <i id="oneStars" class="fas fa-star"></i>
+                            <i id="oneStars" class="fas fa-star"></i>
+                            <i id="oneStars" class="fas fa-star"></i>
+                            <i id="oneStars" class="fas fa-star"></i>
+                            <i id="oneStars" class="fas fa-star"></i>
+                        </p>
                     </div>
                     <div class="figure">
                         <p> <img src="images/fred-kleber-gTbaxaVLvsg-unsplash.jpg"></p>
                         <P id="pName"> Hotel du port</P>
-                        <p id="pPrice">Night starting at 52</p>
+                        <p id="pPrice">Night starting at <strong>52&#8364;</strong></p>
+                        <p class="two">
+                            <i id="twoStars" class="fas fa-star"></i>
+                            <i id="twoStars" class="fas fa-star"></i>
+                            <i id="twoStars" class="fas fa-star"></i>
+                            <i id="twoStars" class="fas fa-star"></i>
+                            <i id="twoStars" class="fas fa-star"></i>
+                        </p>
                     </div>
                     <div class="figure">
                         <p><img src="images/reisetopia-B8WIgxA_PFU-unsplash.jpg"></p>
                         <P id="pName">Les mouettes Hotel</P>
-                        <p id="pPrice">Night starting at 76</p>
+                        <p id="pPrice">Night starting at <strong>76&#8364;</strong></p>
+                        <p class="three">
+                            <i id="threeStars" class="fas fa-star"></i>
+                            <i id="threeStars" class="fas fa-star"></i>
+                            <i id="threeStars" class="fas fa-star"></i>
+                            <i id="threeStars" class="fas fa-star"></i>
+                            <i id="threeStars" class="fas fa-star"></i>
+                        </p>
                     </div>
                     <div class="figure">
                         <p><img src="images/annie-spratt-Eg1qcIitAuA-unsplash.jpg"></p>
                         <P id="pName"> Hotel de la mer</P>
-                        <p id="pPrice">Night starting at 46</p>
+                        <p id="pPrice">Night starting at <strong>46&#8364;</strong></p>
+                        <p class="four">
+                            <i id="fourStars" class="fas fa-star"></i>
+                            <i id="fourStars" class="fas fa-star"></i>
+                            <i id="fourStars" class="fas fa-star"></i>
+                            <i id="fourStars" class="fas fa-star"></i>
+                            <i id="fourStars" class="fas fa-star"></i>
+                        </p>
                     </div>
                     <div class="figure">
                         <p><img src="images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></p>
                         <P id="pName"> Auberge le Panier</P>
-                        <p id="pPrice">Night starting at 23</p>
+                        <p id="pPrice">Night starting at <strong>23&#8364;</strong></p>
+                        <p class="five">
+                            <i id="fiveStars" class="fas fa-star"></i>
+                            <i id="fiveStars" class="fas fa-star"></i>
+                            <i id="fiveStars" class="fas fa-star"></i>
+                            <i id="fiveStars" class="fas fa-star"></i>
+                            <i id="fiveStars" class="fas fa-star"></i>
+                        </p>
                     </div>
                     <div class="figure">
                         <p><img src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"></p>
                         <P id="pName"> Hotel chez Amina</P>
-                        <p id="pPrice">Night starting at 96</p>
+                        <p id="pPrice">Night starting at <strong>96&#8364;</strong></p>
+                        <p class="six">
+                            <i id="sixStars" class="fas fa-star"></i>
+                            <i id="sixStars" class="fas fa-star"></i>
+                            <i id="sixStars" class="fas fa-star"></i>
+                            <i id="sixStars" class="fas fa-star"></i>
+                            <i id="sixStars" class="fas fa-star"></i>
+                        </p>
                     </div>
                 </div>
+                <p id="showmore">Show more</p>
             </div>
+            <!-- ###############################################    SIDE GALERY   #########################################################-->
             <div class="sideGalery">
+                <i class="fas fa-chart-line"></i>
+                <p id="popular"> Most Popular</p>
                 <div class="column">
-                    <img src="images/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
-                    <img src="images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
-                    <img src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                    <div class="figureSide">
+                        <p><img src="images/annie-spratt-Eg1qcIitAuA-unsplash.jpg"></p>
+                        <div id="textCap">
+                            <P id="pName"> Hotel chez Amina</P>
+                            <p id="pPrice">Night starting at <strong>96&#8364;</strong></p>
+                            <p class="sideOne stars">
+                                <i id="sideOne" class="fas fa-star"></i>
+                                <i id="sideOne" class="fas fa-star"></i>
+                                <i id="sideOne" class="fas fa-star"></i>
+                                <i id="sideOne" class="fas fa-star"></i>
+                                <i id="sideOne" class="fas fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="figureSide">
+                        <p><img src="images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></p>
+                            <div id="textCap">
+                                <P id="pName"> Hotel chez Amina</P>
+                                <p id="pPrice">Night starting at <strong>96&#8364;</strong></p>
+                                <p class="sideTwo stars">
+                                    <i id="sideTwo" class="fas fa-star"></i>
+                                    <i id="sideTwo" class="fas fa-star"></i>
+                                    <i id="sideTwo" class="fas fa-star"></i>
+                                    <i id="sideTwo" class="fas fa-star"></i>
+                                    <i id="sideTwo" class="fas fa-star"></i>
+                                </p>
+                        </div>
+                    </div>
+                    <div class="figureSide">
+                        <p><img src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"></p>
+                        <div id="textCap">
+                            <P id="pName"> Hotel chez Amina</P>
+                            <p id="pPrice">Night starting at <strong>96&#8364;</strong></p>
+                            <p class="sideThree stars">
+                                <i id="sideThree" class="fas fa-star"></i>
+                                <i id="sideThree" class="fas fa-star"></i>
+                                <i id="sideThree" class="fas fa-star"></i>
+                                <i id="sideThree" class="fas fa-star"></i>
+                                <i id="sideThree" class="fas fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
