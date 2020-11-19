@@ -1,68 +1,94 @@
-* {
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-  }
-  /* basic config */
-.container{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2%;
-}
-.top{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
+@media screen and (max-width: 800px){
+    .menu .ul_menu .signup{
+        position: relative;
+        top: -90px;
+    }
+    .menu .ul_menu #activities{
+        border-bottom: 2px solid #8d8f91;
+    }
+    .menu .ul_menu #accomodation:defined{
+        border-style: none;
+        border-bottom: 2px solid #0065FC;
+    }
+    .search{
+        padding-top: 20px;
+    }
+    .search .formGroup i{
+        height: 65px;
+        width: 65px;
+        font-size: 26px;
+    }
+    .search .formGroup #findPlace{
+        height: 61px;
+        width: 258px;
+    }
+    .search .formGroup #btnSubmit{
+        border-radius: 20px;
+        width: 80px;
+        height: 63px;
+        position: relative;
+        top: 1px;
+        left: -20px;
+    }
+    .containerFilters p{
+        margin-bottom: -10px;    
+    }
+    .top .containerFilters{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 300px;
+    }
+    .top .containerFilters .filters{
+        position: relative;
+        margin-top: 20px;
+        
+    }
+    .top #romantic{
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 65px;
+    }
+    /*  ######## MID/side galery ######## */
+    .container .mid{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mid  .sideGalery{
+        width: 540px;
+    }
+    .mid .figureSide{
+        width: 500px;
+    }
+    .mid .figureSide img{
+        height: 210px;
+        width: 220px;
+    }
+    .mid .figureSide #textCap{
+        font-size: 22px;
+    }
+    /*  ######## MID/Galery ######## */
+    .mid .galery{
+        width: 540px;
+        background-color: white;
+    }
+    .container .mid .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid .row .figure{
+        width: 400px;
+        height: 350px;
+        position: relative;
+        margin-left: -20px;
+        box-shadow: 2px 2px 2px #888888;
 
-.mid{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.mid .row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    }
+    .galery .row img{
+        width: 400px;
+        border-radius: 30px;
+        margin-left: -10px;
+        margin-top: -10px;
 
-}
-.bottom{
-    display: flex;
-    flex-direction: row;
-}
-.containerFilters{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-.column{
-    display: flex;
-    flex-direction: column;
-}
-.figureSide{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.figureSide #test{
-    display: flex;
-    flex-direction: column;
-}
-.tourism_galery{
-    display: flex;
-    flex-direction: row;
-}
-.bottom{
-    display: flex;
-    flex-direction: column;
-}
-.footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.columnFooter{
-    display: flex;
-    flex-direction: column;
+    }
 }

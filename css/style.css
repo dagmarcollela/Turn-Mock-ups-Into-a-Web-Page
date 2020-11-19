@@ -1,3 +1,18 @@
+* {
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
 .menu{
     padding: 0 10px; 
     margin: 0; 
@@ -42,9 +57,15 @@
     color:#0065FC;
     border-top: 2px solid blue; 
 }
-/* End of menu */
+/* #################################################### End of menu ############################ */
 
-/* Start search place */
+/* #################################################### TOP/Search Place######################## */
+.containerFilters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
 .formGroup{
     position: relative;
     display: flex;
@@ -190,7 +211,18 @@
 }
 /* End of search Place */
 
-/* Stating Gallery */
+/* ########################################### MID/Gallery ############################# */
+.mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mid .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
 .galery{
     background-color: #E8E8E8;
     height: 100%;
@@ -253,8 +285,11 @@
     color: blue;
 }
 
-/* ######################################## Starting side Galery ############################################################*/
-
+/* ######################################## MID/ Side Galery ############################################################*/
+.column{
+    display: flex;
+    flex-direction: column;
+}
 .sideGalery{
     height: 100%;
     width: 800px;
@@ -275,6 +310,9 @@
     background-color: white;
     border-radius: 30px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .figureSide img{
     height: 280px;
@@ -304,7 +342,8 @@
     color: blue;
 }
 
-/* ############### botttom ##############*/
+/* ############### Botttom/Galery ##############*/
+
 
 #bttTitles{
     font-weight: 800;
@@ -313,12 +352,13 @@
 }
 .tourism_galery{
     padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .capsuleGalery{
     padding: 50px;
     width: 100%;
     height: 100%;
-
 }
 #oldport img, #calaquesNational img{
     height: 800px;
@@ -354,6 +394,14 @@
 
 .footer{
     background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.columnFooter{
+    display: flex;
+    flex-direction: column;
 }
 .columnFooter a{
     text-decoration: none;
