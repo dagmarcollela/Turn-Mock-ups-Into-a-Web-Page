@@ -15,7 +15,6 @@
 
 .menu{
     padding: 0 10px; 
-    margin: 0; 
     display: flex; 
     flex-wrap: wrap; 
     list-style: none; 
@@ -44,7 +43,7 @@
     height: 60px;
     cursor: pointer; 
     color: black; 
-    font-size: 28px;
+    font-size: 18px;
 }
 .ul_menu li a:hover{
     color:#0065FC; 
@@ -66,6 +65,12 @@
     flex-wrap: wrap;
 
 }
+.containerFilters .filters p{
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+    top: -20px;
+}
 .formGroup{
     position: relative;
     display: flex;
@@ -73,18 +78,18 @@
 }
 .search #searchText{
     font-weight: 800;
-    font-size: 38px;
+    font-size: 22px;
 }
 .search #searchText2{
-    font-size: 28px;
+    font-size: 18px;
 }
 .search form i{
     background-color: lightgray;
-    height: 85px;
-    width: 85px;
+    height: 55px;
+    width: 55px;
     border-radius: 10px 0 0 10px;
     border: none;
-    font-size: 50px;
+    font-size: 20px;
     position: relative;
 }
 .formGroup span{
@@ -100,23 +105,22 @@
 #findPlace{
     white-space: nowrap;
     display: block;
-    height: 80px;
+    height: 50px;
     width: 258px;
     font-weight: 1000;
-    font-size: 30px;
+    font-size: 18px;
     padding-left: 15px;
-    opacity: 50%;
 }
 #btnSubmit{
     border-radius: 0 20px 20px 0;
-    width: 150px;
-    height: 86px;
+    width: 100px;
+    height: 55px;
     font-weight: 1000;
-    font-size: 26px;
+    font-size: 16px;
     background-color: #0065FC;
     color: white;
     border: none;
-    opacity: 90%;
+
     cursor: pointer;
 }
 #btnSubmit:hover{
@@ -132,8 +136,8 @@
 .filters{
     display: inline-block;
     padding: 0 25px;
-    height: 50px;
-    font-size: 26px;
+    height: 40px;
+    font-size: 18px;
     font-weight: 1000;
     line-height: 50px;
     border-radius: 25px;
@@ -148,12 +152,12 @@
     position: relative;
     float: left;
     margin: 0 10px 0 -25px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: #DEEBFF;
     color: #0065FC;
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
 }
 .fa-money-bill-wave:before {
@@ -181,7 +185,7 @@
     font-size: 26px;
     padding: 0 30px 0 0;
     position: relative;
-    top: -15px;
+    top: -12px;
 }
 #total span{
     display: flex;
@@ -196,12 +200,12 @@
     height: 30px;
     text-align: center;
     color: #0065FC;
-    top: 20px;
+    top: 10px;
     position: relative;
 }
 #total p{
     font-weight: 400;
-    font-size: 23px;
+    font-size: 18px;
     margin-left: 5px;
 }
 .fa-info:before {
@@ -225,29 +229,27 @@
 .galery{
     background-color: #E8E8E8;
     height: 100%;
-    width: 1500px;
+    width: 60%;
     border-radius: 50px;
-    padding: 0 40px 40px 40px;    
 }
 #location{
     font-weight: 800;
-    font-size: 26px;
+    font-size: 18px;
     margin-left: 20px;
 }
 .figure{
     background-color: white;
     border-radius: 30px;
-    padding: 0 0 30px 0;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 .figure .pName{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 0 0 20px;
 }
 .figure .pPrice{
-    font-size: 20px;
+    font-size: 16px;
     padding: 0 0 0 20px;
 }
 .one, .two, .three, .four, .five, .six{
@@ -255,15 +257,15 @@
 }
 .row img{
     height: 200px;
-    width: 400px;
+    width: 300px;
     border-radius: 30px 30px 0 0;
     padding: 0 10px 10px 10px;
 }
 #showmore{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 20px;
-    margin-top: 86px;
+    margin-top: 50px;
 }
 .one #oneStars:nth-child(1), #oneStars:nth-child(2), #oneStars:nth-child(3), #oneStars:nth-child(4){
     color: blue;
@@ -291,19 +293,19 @@
 }
 .sideGalery{
     height: 100%;
-    width: 800px;
+    width: 30%;
     background-color: #E8E8E8;
     border-radius: 50px;
-    padding: 20px 50px 110px 20px;
+    padding: 20px 50px 0 20px;
 }
 .sideGalery #popular{
     font-weight: 800;
-    font-size: 23px;
+    font-size: 18px;
     margin-left: 5px;
 }
 .sideGalery .fa-chart-line{
     float: right;
-    font-size: 26px;
+    font-size: 20px;
 }
 .figureSide{
     background-color: white;
@@ -312,10 +314,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 17px;
 }
 .figureSide img{
-    height: 280px;
-    width: 280px;
+    height: 200px;
+    width: 230px;
     border-radius: 30px 0 0 30px;
     padding: 0 20px 0 10px;
 }
@@ -324,7 +327,7 @@
     text-align: center;
     position: relative;
     top: 10px;
-    font-size: 26px;
+    font-size: 16px;
     height: 100%;
 }
 .stars{
@@ -346,48 +349,43 @@
 
 #bttTitles{
     font-weight: 800;
-    font-size: 26px;
+    font-size: 18px;
     padding: 30px 0 0px 15px;
 }
 .tourism_galery{
-    padding: 20px;
     display: flex;
     flex-direction: row;
 }
 .capsuleGalery{
-    padding: 50px;
     width: 100%;
     height: 100%;
 }
 #oldport img, #calaquesNational img{
-    height: 800px;
-    width: 500px;
+    height: 500px;
+    width: 350px;
     border-radius: 30px 30px 0 0;
-    box-shadow: 8px 8px whitesmoke;
+    box-shadow: 2px 2px whitesmoke;
 }
 #pomeguesFort img, #frioulisland img, #notreDame img, #longchampPark img{
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 350px;
     border-radius: 30px 30px 0 0;
-    box-shadow: 5px 5px whitesmoke;
-}
-#longchampPark, #frioulisland{
-    padding: 50px 0 0 0;
+    box-shadow:2px 2px whitesmoke;
 }
 .imgTitles{
-    width: 503px;
-    height: 100px;
+    width: 350px;
+    height: 80px;
     background-color: white;
     position: relative;
     top: -25px;
     border-radius: 0 0 30px 30px;
-    box-shadow: 5px 5px whitesmoke;
+    box-shadow: 2px 2px whitesmoke;
 
 }
 .imgTitles p{
     padding: 30px 0 0 20px;
     font-weight: 800;
-    font-size: 26px;
+    font-size: 18px;
 }
 /* ############################ FOOTER ####################*/
 
