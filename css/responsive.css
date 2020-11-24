@@ -37,14 +37,12 @@
         display: flex;
         flex-direction: column;
         padding: 30px;
-        width: 300px;
+        width: 250px;
     }
     .top .containerFilters .filters{
         position: relative;
-        margin-top: 20px;
-        
+        margin-top: 20px; 
     }
-    
     .top #romantic{
         position: absolute;
         margin-left: 50%;
@@ -58,7 +56,7 @@
         flex-direction: column-reverse;
     }
     .mid  .sideGalery{
-        width: 540px;
+        width: 500px;
     }
     .mid .figureSide{
         width: 500px;
@@ -80,24 +78,22 @@
         flex-direction: column;
     }
     .mid .row .figure{
-        width: 400px;
+        width: 500px;
         height: 350px;
         position: relative;
-        margin-left: -20px;
+        margin-left: 1%;
         box-shadow: 2px 2px 2px #888888;
 
     }
     .galery .row img{
-        width: 400px;
+        width: 500px;
         border-radius: 30px;
         margin-left: -10px;
         margin-top: -10px;
 
     }
     /*################# Bottom Activies ######## */
-    .bottom #bttTitles{
-        padding: 0px 0 -20px 0;
-    }
+
     .bottom, .tourism_galery{
         display: flex;
         flex-direction: column;
@@ -105,9 +101,10 @@
         height: 100%;
     }
     .tourism_galery .capsuleGalery{
-        padding: 50px;
-        width: 300px;
+        padding: 10px;
+        width: 500px;
         height: 100%;
+        margin-left: 1%;
     }
     .tourism_galery #oldport img {
         width: 500px;
@@ -116,6 +113,13 @@
     .tourism_galery #calaquesNational img{
         width: 500px;
         height: 300px;
+    }
+    .tourism_galery #pomeguesFort img, .tourism_galery #frioulisland img, .tourism_galery #notreDame img, .tourism_galery #longchampPark img{
+        width: 500px;
+        height: 300px;
+    }
+    .capsuleGalery .imgTitles{
+        width: 500px;
     }
 
     /*########### footer #############*/
