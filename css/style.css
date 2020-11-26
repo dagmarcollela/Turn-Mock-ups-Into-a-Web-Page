@@ -145,9 +145,6 @@
     border: 1px solid grey;
     margin-right: 20px;
 }
-.filters span{
-    padding: 0;
-}
 .filters i{
     position: relative;
     float: left;
@@ -160,6 +157,44 @@
     font-size: 18px;
     text-align: center;
 }
+ 
+
+/* check box test */
+.filters #btnControl, #btnControl2, #btnControl3, #btnControl4{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: left;
+    margin: 0 10px 0 -25px;
+    border-radius: 50%;
+    display: none;
+}
+.filters #btnControl:checked + label > i{
+    position: relative;
+    float: right;
+    margin-right: -25px;
+}
+
+.filters #btnControl2:checked + label > i{
+    position: relative;
+    float: right;
+    margin-right: -25px;
+}
+.filters #btnControl3:checked + label > i{
+    position: relative;
+    float: right;
+    margin-right: -25px;
+}
+.filters #btnControl4:checked + label > i{
+    position: relative;
+    float: right;
+    margin-right: -25px;
+}
+
+
+/* check box test */
+
+
 .fa-money-bill-wave:before {
     content: "\f53a";
     position: relative;
