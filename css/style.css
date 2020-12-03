@@ -35,10 +35,11 @@
 .ul_menu li{
     list-style-type: none;
     padding: 0; 
-    display: inline;;}
+    display: inline;
+}
 .ul_menu li a{
     text-decoration: none; 
-    padding: 50px 20px 0; 
+    padding: 50px 20px 0 0; 
     display: block; 
     height: 60px;
     cursor: pointer; 
@@ -157,9 +158,6 @@
     font-size: 18px;
     text-align: center;
 }
- 
-
-/* check box test */
 .filters #btnControl, #btnControl2, #btnControl3, #btnControl4{
     width: 40px;
     height: 40px;
@@ -190,11 +188,6 @@
     float: right;
     margin-right: -25px;
 }
-
-
-/* check box test */
-
-
 .fa-money-bill-wave:before {
     content: "\f53a";
     position: relative;
