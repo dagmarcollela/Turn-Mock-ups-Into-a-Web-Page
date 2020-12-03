@@ -89,5 +89,12 @@
         width: 96%;
         height: 200px;
     }
+    .container .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 5%;
+
+    }
+
 
 }
