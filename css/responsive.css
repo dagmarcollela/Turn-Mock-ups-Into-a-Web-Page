@@ -98,3 +98,46 @@
 
 
 }
+/*########## Mobile M ########## */
+@media screen and (max-width: 375px){
+    .top .menu img{
+        width: 80px;
+        height: 50px;
+    }
+    .menu .ul_menu li a{
+        font-size: 13px;
+    }
+    .menu .ul_menu .signup{
+        top: -50px;
+    }
+    .top .containerFilters .filters{
+        width: 38%;
+    }
+    .top .containerFilters .filters p{
+        font-size: 15px;
+    }
+    .containerFilters #romantic{
+        bottom: 43.5%;
+        left: 56%;
+    }
+}
+
+/*########## Mobile S ########## */
+@media screen and (max-width: 320px){
+    .search .formGroup #btnSubmit{
+        width: 50px;
+        height: 50px;
+        font-size: 10px;
+    }
+    .search .formGroup #findPlace{
+        width: 170px;
+        height: 45px;
+    }
+    .search .formGroup i{
+        height: 50px;
+    }
+ 
+    .top .containerFilters .filters p{
+        font-size: 12px;
+    }
+}
