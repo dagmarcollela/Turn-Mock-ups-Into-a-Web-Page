@@ -1,3 +1,27 @@
+@media screen and (max-width: 1450px){
+    .mid .sideGalery .figureSide img{
+        width: 95%;
+        border-radius: 10% 10% 0 0;
+    }
+    .sideGalery .figureSide #textCap{
+        height: 100px;
+        top: -15px;
+        left: 3%
+    }
+    .figureSide .stars{
+        top: 0px;
+    }
+
+}
+@media screen and (max-width: 1110px){
+    .bottom .tourism_galery{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom .tourism_galery .ultimas{
+        display: initial ;
+    }
+}
 @media screen and (max-width: 768px){
     /* tablet */
     .container .mid{
@@ -139,5 +163,12 @@
  
     .top .containerFilters .filters p{
         font-size: 12px;
+    }
+    .containerFilters #romantic{
+        bottom: 44.5%;
+        left: 57%;
+    }
+    .figureSide .stars{
+        top: 0px;
     }
 }
