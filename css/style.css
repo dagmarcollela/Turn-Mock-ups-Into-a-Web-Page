@@ -158,14 +158,15 @@
     font-size: 18px;
     text-align: center;
 }
-.filters #btnControl, #btnControl2, #btnControl3, #btnControl4{
-    width: 40px;
+.filters #btnControl, .filters #btnControl2, .filters #btnControl3, .filters #btnControl4{
+    width: 60px;
     height: 40px;
     position: relative;
     float: left;
     margin: 0 10px 0 -25px;
-    border-radius: 50%;
+    border-radius: 10%;
     display: none;
+    background-color: red;
 }
 .filters #btnControl:checked + label > i{
     position: relative;
@@ -228,7 +229,7 @@
     height: 30px;
     text-align: center;
     color: #0065FC;
-    top: 10px;
+    top: -8px;
     position: relative;
 }
 #total p{
@@ -294,24 +295,6 @@
     font-size: 18px;
     margin-left: 20px;
     margin-top: 50px;
-}
-.one #oneStars:nth-child(1), #oneStars:nth-child(2), #oneStars:nth-child(3), #oneStars:nth-child(4){
-    color: blue;
-}
-.two #twoStars:nth-child(1), #twoStars:nth-child(2), #twoStars:nth-child(3), #twoStars:nth-child(4), #twoStars:nth-child(5){
-    color: blue;
-}
-.three #threeStars:nth-child(1), #threeStars:nth-child(2), #threeStars:nth-child(3), #threeStars:nth-child(4){
-    color: blue;
-}
-.four #fourStars:nth-child(1), #fourStars:nth-child(2), #fourStars:nth-child(3){
-    color: blue;
-}
-.five #fiveStars:nth-child(1), #fiveStars:nth-child(2), #fiveStars:nth-child(3), #fiveStars:nth-child(4){
-    color: blue;
-}
-.six #sixStars:nth-child(1), #sixStars:nth-child(2), #sixStars:nth-child(3), #sixStars:nth-child(4), #sixStars:nth-child(5){
-    color: blue;
 }
 
 /* ######################################## MID/ Side Galery ############################################################*/

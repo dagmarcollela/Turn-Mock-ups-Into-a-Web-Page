@@ -1,7 +1,7 @@
 
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1440px){
     .container .mid .galery{
-        width: 90%;
+        width: 50%;
         margin-top: 5%;
     }
     .mid .sideGalery .figureSide img{
@@ -16,9 +16,11 @@
     .figureSide .stars{
         top: 0px;
     }
-    .bottom .tourism_galery{
-        display: flex;
-        flex-direction: column;
+    .bottom .tourism_galery .ultimas{
+        display: none;
+    }
+    .container .mid .sideGalery{
+        margin-top: 5%
     }
 }
 @media screen and (max-width: 1110px){
@@ -33,6 +35,21 @@
     .bottom .tourism_galery .ultimas{
         display: initial ;
     }
+    .mid .sideGalery{
+        width: 40%;
+        margin-top: 6%;
+    }
+    .container .mid .galery{
+        width: 50%;
+        margin-top: 5%;
+    }
+    .galery .figure{
+        width: 90%;
+    }
+    .galery .figure img{
+        width: 95%;
+        height: 250px;
+    }
 }
 @media screen and (max-width: 768px){
     /* tablet */
@@ -40,8 +57,12 @@
         display: flex;
         flex-direction: column-reverse;
     }
+    .mid .sideGalery .figureSide img{
+        width: 100%;
+        border-radius: 10% 10% 0 0;
+    }
     .mid .sideGalery{
-        width: 80%;
+        width: 90%;
     }
     .mid .galery{
         width: 90%;
