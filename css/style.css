@@ -135,6 +135,7 @@
     width: 100%;
 }
 .filters{
+    width: 160px;
     display: inline-block;
     padding: 0 25px;
     height: 40px;

@@ -5,7 +5,6 @@
         margin-top: 5%;
     }
     .mid .sideGalery .figureSide img{
-        width: 95%;
         border-radius: 10% 10% 0 0;
     }
     .sideGalery .figureSide .textCap{
@@ -57,15 +56,15 @@
         display: flex;
         flex-direction: column-reverse;
     }
+    .container .mid .sideGalery{
+        width: 90%;
+    }
     .mid .sideGalery .figureSide img{
         width: 100%;
         border-radius: 10% 10% 0 0;
     }
-    .mid .sideGalery{
-        width: 90%;
-    }
-    .mid .galery{
-        width: 90%;
+    .container .mid .galery{
+        width: 100%;
         margin-top: 5%;
     }
     .galery .figure{
@@ -124,11 +123,15 @@
     .containerFilters #romantic{
         position: absolute;
         left: 60%;
-        bottom: 44%;
+        bottom: 42.5%;
         width: 110px;
     }
-    .column .figureSide img{
-        width: 92%;
+    .container .mid .sideGalery{
+        width: 80%;
+    }
+    .mid .sideGalery .figureSide img{
+        width: 95%;
+        height: 150px;
         border-radius: 10% 10% 0 0;
     }
     .column .figureSide .textCap{
@@ -137,7 +140,7 @@
         top: -10px;
     }
     .figureSide .stars{
-        top: 10px;
+        top: 0px;
     }
     .galery .figure img{
         width: 96%;
@@ -149,8 +152,13 @@
         padding: 0 0 0 5%;
 
     }
-
-
+    .container .mid .galery{
+        width: 100%;
+    }
+    .galery .figure img{
+        width: 93%;
+        height: 150px;
+    }
 }
 /*########## Mobile M ########## */
 @media screen and (max-width: 375px){
@@ -171,8 +179,30 @@
         font-size: 15px;
     }
     .containerFilters #romantic{
-        bottom: 43.5%;
+        bottom: 42%;
         left: 56%;
+    }    
+    .container .mid .sideGalery{
+        width: 80%;
+    } 
+    .mid .sideGalery .figureSide {
+        width: 100%;
+        margin-left: 2%;
+    }
+    .mid .sideGalery .figureSide img{
+        width: 90%;
+        height: 150px;
+        border-radius: 10% 10% 0 0;
+    }
+    .figureSide .stars{
+        top: 0px;
+    }
+    .container .mid .galery{
+        width: 100%;
+    }
+    .galery .figure img{
+        width: 93%;
+        height: 150px;
     }
 }
 
@@ -200,15 +230,29 @@
     .top .search #searchText2{  
         margin-bottom: 1%;
     }
- 
     .top .containerFilters .filters{
         font-size: 12px;
     }
     .containerFilters #romantic{
         bottom: 50%;
         left: 57%;
+        width: 85px;
     }
     .figureSide .stars{
         top: 0px;
+    }
+    .galery .figure img{
+        width: 93%;
+        height: 150px;
+    }
+    .mid .sideGalery .figureSide img{
+        width: 90%;
+        height: 150px;
+        border-radius: 10% 10% 0 0;
+    }
+    .column .figureSide .textCap{
+        text-align: left;
+        margin-left: 10px;
+        margin-top: -10px;
     }
 }
