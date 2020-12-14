@@ -1,43 +1,68 @@
 
 @media screen and (max-width: 768px){
     /* tablet */
+    .top .containerFilters .filters{
+        width: 130px;
+        font-size: 13px;
+    }
     .container .mid{
         display: flex;
         flex-direction: column-reverse;
     }
     .container .mid .sideGalery{
-        width: 90%;
+        max-width: 650px;
+        width: 100%;
+
     }
     .mid .sideGalery .figureSide img{
+        max-width: 400px;
         width: 100%;
-        border-radius: 10% 10% 0 0;
+        border-radius: 10% 0 0 10%;
     }
     .container .mid .galery{
+        max-width: 720px;
         width: 100%;
         margin-top: 5%;
     }
     .galery .figure{
-        width: 90%;
+        max-width: 655px;
+        width: 100%;
     }
     .galery .figure img{
-        width: 96%;
-        height: 250px;
+        width: 100%;
+        max-width: 630px;
+        height: 100%;
+        max-height: 250px;
+    }
+    .bottom .tourism_galery{
+        display: block;
     }
 
     .capsuleGalery #oldport img, .capsuleGalery #calaquesNational img{
-        width: 90%;
-        height: 300px;
+        max-width: 665px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+        margin-left: 4%;
     }
     .capsuleGalery #pomeguesFort img, .capsuleGalery #frioulisland img{
-        width: 90%;
-        height: 300px;
+        max-width: 665px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+        margin-left: 4%;
     }
     .capsuleGalery #notreDame img, .capsuleGalery #longchampPark img{
-        width: 90%;
-        height: 300px;
+        max-width: 665px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+        margin-left: 4%;
     }
     .capsuleGalery .imgTitles{
-        width: 90%;
+        max-width: 665px;
+        width: 100%;
+        margin-left: 4%;
     }
 }
 
@@ -46,8 +71,8 @@
 @media screen and (max-width: 425px){
     .ul_menu .signup{
         position: relative;
-        bottom: 120%;
-        left: 15%;
+        bottom: 55px;
+        left: 30px;
     }
     .top .ul_menu li a{
         padding: 20px 20px 0 0;
@@ -65,22 +90,29 @@
         display: flex;
         flex-direction: column;
     }
-    .containerFilters .filters{
-        width: 40%;
+    .top .containerFilters .filters{
+        max-width: 150px;
+        width: 100%;
         margin-top: 3%;
     }
     .containerFilters #romantic{
         position: absolute;
-        left: 60%;
-        bottom: 42.5%;
-        width: 110px;
+        left: 230px;
+        top: 423px;
     }
     .container .mid .sideGalery{
-        width: 80%;
+        max-width: 330px;
+        width: 100%;
+    }
+    .mid .sideGalery .figureSide{
+        width: 110%;
+        max-width: 360px;
     }
     .mid .sideGalery .figureSide img{
-        width: 95%;
-        height: 150px;
+        width: 100%;
+        max-width: 340px;
+        height: 100%;
+        max-height: 150px;
         border-radius: 10% 10% 0 0;
     }
     .column .figureSide .textCap{
@@ -91,22 +123,34 @@
     .figureSide .stars{
         top: 0px;
     }
+    .container .mid .galery{
+        max-width: 400px;
+        width: 100%;
+    }
+    .mid .galery .figure{
+        max-width: 360px;
+        width: 100%;
+        margin-left: 5%;
+    } 
     .galery .figure img{
-        width: 96%;
-        height: 200px;
+        max-width: 340px;
+        width: 100%;
+        max-height: 200px;
+        height: 100%;
+    }
+    .container .bottom .tourism_galery{
+        max-width: 400px;
+        width: 100%;
+    }
+    .bottom .tourism_galery .capsuleGalery{
+        max-width: 370px;
+        width: 100%;
     }
     .container .footer{
         display: flex;
         flex-direction: column;
         padding: 0 0 0 5%;
 
-    }
-    .container .mid .galery{
-        width: 100%;
-    }
-    .galery .figure img{
-        width: 93%;
-        height: 150px;
     }
 }
 /*########## Mobile M ########## */
