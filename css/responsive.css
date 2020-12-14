@@ -153,6 +153,21 @@
 
     }
 }
+/*###### PIXEL 2XL ########*/
+@media screen and (max-width: 411px){
+    .top .containerFilters .filters{
+        max-width: 120px;
+        width: 100%;
+    }
+    .container .mid .sideGalery {
+        max-width: 310px;
+        width: 100%;
+    }
+    .mid .sideGalery .figureSide img {
+        width: 100%;
+        max-width: 315px;
+    }
+}
 /*########## Mobile M ########## */
 @media screen and (max-width: 375px){
     .top .menu img{
