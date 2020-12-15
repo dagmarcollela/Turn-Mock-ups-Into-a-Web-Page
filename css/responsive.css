@@ -169,7 +169,7 @@
     }
 }
 @media screen and (max-width: 393px){
-    .containerFilters #romantic {
+    .top .containerFilters #romantic {
         left: 210px;
         top: 450px;
     }
@@ -212,7 +212,7 @@
     .top .containerFilters .filters p{
         font-size: 15px;
     }
-    .containerFilters #romantic{
+    .top .containerFilters #romantic{
         left: 190px;
     }    
     .container .mid .sideGalery{
