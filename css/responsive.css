@@ -168,6 +168,32 @@
         max-width: 315px;
     }
 }
+@media screen and (max-width: 393px){
+    .containerFilters #romantic {
+        left: 210px;
+        top: 450px;
+    }
+    .container .mid .sideGalery {
+        max-width: 295px;
+        width: 100%;
+    }
+    .mid .sideGalery .figureSide img {
+        width: 100%;
+        max-width: 305px;
+    }
+    .mid .galery .figure {
+        max-width: 330px;
+        width: 100%;
+    }
+    .galery .figure img {
+        max-width: 310px;
+        width: 100%;
+    }
+    .container .bottom .tourism_galery {
+        max-width: 340px;
+        width: 100%;
+    }
+}
 /*########## Mobile M ########## */
 @media screen and (max-width: 375px){
     .top .menu img{
